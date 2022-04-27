@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.logo img{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+#navbar{
+	display: flex;
+	text-align: center;
+	position: relative;
+}
+#navbar::before{
+       content: "";
+              
+       
+       
+       
+       left: 0px;
+       right: 0px;
+       z-index: -1;
+       justify-content: center;
+}
+#navbar ul{
+	display: flex;
+	padding-left: 450px;
+}
+#navbar ul li{
+	list-style-type: none;
+}
+#navbar ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 15px 15px;
+	color: black;
+	font-size: 15px;
+
+}
+#navbar a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 25px;
+}
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 4px;
+	height: 10rem;
+	font-family: sans-serif;
+	
+}
+#home p{
+	font-family: sans;
+	padding-left: 6rem ;
+	text-align: center;
+	font-size: 1.5rem;
+}
+#home h1{
+	text-align: center;
+	font-size: 2.4rem;
+}
+#home::before{
+	content: "";
+	position: absolute;
+	background:url("https://th.bing.com/th/id/R.148892cf0a0337f7637dd25210e2cd69?rik=yb%2fJgyVykSS4FA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2015%2f09%2f27%2fyoga-hd-wallpaper_024616754_279.jpg&ehk=vAKsm5JpNboywFQElq3xOnYTneKT4sakx%2b7yNteK%2bSE%3d&risl=&pid=ImgRaw&r=0") ;
+	background-repeat: no-repeat;
+	top: 0PX;
+	left: 0PX;
+	z-index: -1;
+	opacity: 0.4;
+	height: 100%;
+	width: 100%;
+	
+}
+.btn{
+	
+	margin-left: 510px ;
+	margin-right: 510px ;
+	margin-top: 23px;
+	padding: 2px 3px;
+	font-size: 20px;
+	border: 2px solid black;
+	background-color: brown;
+	color: white;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: silver;
+}
+
+#information h1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding:14px;
+	margin: 45px;
+	height: 600px;
+	font-size: 2rem;
+	font-family: sans-serif;
+
+}
+#information::before{
+	position: absolute;
+	content: "";
+	background: url("https://th.bing.com/th/id/R.148892cf0a0337f7637dd25210e2cd69?rik=yb%2fJgyVykSS4FA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2015%2f09%2f27%2fyoga-hd-wallpaper_024616754_279.jpg&ehk=vAKsm5JpNboywFQElq3xOnYTneKT4sakx%2b7yNteK%2bSE%3d&risl=&pid=ImgRaw&r=0");
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	margin-top: 345px;
+	
+}
+input{
+	padding: 10px;
+
+	border: 1px solid black;
+	
+	border-radius: 3px;
+	
+	display: flex;
+
+}
+input[type='text']{
+	margin: 5px;
+	color: black;
+	margin-left: 480px;
+
+
+}
+.ft{
+	padding-left: 450px;
+	padding-top: 80px;
+}
+
